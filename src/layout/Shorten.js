@@ -5,7 +5,7 @@ function Shorten() {
   const [items, setItems] = useState([]);
   const [btnClicked, setbtnClicked] = useState("");
   const [linkStorage, setLinkStorage] = useState(
-    JSON.parse(localStorage.getItem("data"))
+    JSON.parse(localStorage.getItem("data")) || []
   );
 
 
