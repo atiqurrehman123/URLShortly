@@ -1,0 +1,44 @@
+.btn {
+	padding: 11px 32px;
+	font-weight: 600;
+
+	&-info {
+		color: #ffffff;
+		background-color: hsl(180, 66%, 49%);
+		border-color: hsl(180, 66%, 49%);
+
+		&:focus {
+			background-color: hsl(180, 68%, 46%);
+			border-color: hsl(180, 68%, 46%);
+		}
+		&:hover {
+			background-color:hsl(180, 75%, 54%);
+			border-color: hsl(180, 75%, 54%);
+			color: #ffffff;
+		}
+	}
+	&-primary {
+		color: #ffffff;
+		background-color: hsl(257, 27%, 26%);
+		border-color: hsl(257, 27%, 26%);
+
+		&:focus {
+			background-color: hsl(257, 29%, 23%);
+			border-color: hsl(257, 29%, 23%);
+		}
+		&:hover {
+			background-color: hsl(257, 36%, 31%);
+			border-color: hsl(257, 36%, 31%);
+			color: #ffffff;
+		}
+	}
+}
+
+.text {
+	&-info {
+		color: hsl(180, 66%, 49%);
+	}
+	&-danger {
+		color: hsl(0, 87%, 67%);
+	}
+}
